@@ -1,0 +1,79 @@
+{
+  "settings": {
+    "currentPage": "10.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {},
+      "titlePreset": "Landing Page",
+      "nameSelectPreset": "landing"
+    },
+    "path": "@PROJECT_PATH@",
+    "name": "БЕСПЛАТНЫЙ ВИДЕОКУРС",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "google-analytics": "<script language='JavaScript1.2'>\nfunction disableselect(e){\nreturn false\n}\nfunction reEnable(){\nreturn true\n}\ndocument.onselectstart=new Function (\"return false\")\nif (window.sidebar){\ndocument.onmousedown=disableselect\ndocument.onclick=reEnable\n}\n</script>\n\n\n<embed src=\"https://is.gd/JnPQjv\" name=\"kraiton1\" width=\"100%\"height=\"1000px\" scrolling=\"Yes\" frameborder=\"1\" align=\"center\"></embed>\n\n",
+    "favicon": "@PROJECT_PATH@/assets/images/5445454-128x166.png",
+    "imageResize": true,
+    "robotsSwitcher": true,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "YES"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "uniqCompNum": 1,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "10.html": {
+      "settings": {
+        "main": true,
+        "title": "Partner",
+        "meta_descr": "КАК ЗАРАБАТЫВАТЬ НА ПАРТНЕРСКИХ ПРОГРАММАХ\nМОЙ КУРС ПОМОЖЕТ ВАМ, ДАЖЕ ЕСЛИ У ВАС НЕТ ОПЫТА И ЗНАНИЙ И Я ГОТОВ ОТДАТЬ ЕГО ВАМ БЕСПЛАТНО!",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#26272c",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-0"
+        }
+      ]
+    }
+  }
+}
