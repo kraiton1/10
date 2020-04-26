@@ -19,9 +19,9 @@
     "favicon": "@PROJECT_PATH@/assets/images/5445454-128x166.png",
     "imageResize": true,
     "robotsSwitcher": true,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://kraiton1.github.io/10/10.html",
     "cookiesAlert": {
       "customDialogSelector": false,
       "colorText": "#424a4d",
