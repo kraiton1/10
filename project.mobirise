@@ -6,13 +6,16 @@
       "title": "PurityM",
       "styling": {},
       "titlePreset": "Landing Page",
-      "nameSelectPreset": "landing"
+      "nameSelectPreset": "landing",
+      "additionalSetColors": [
+        "#26272c"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "name": "БЕСПЛАТНЫЙ ВИДЕОКУРС",
     "versionFirst": "4.12.3",
     "siteFonts": [],
-    "google-analytics": "<script language='JavaScript1.2'>\nfunction disableselect(e){\nreturn false\n}\nfunction reEnable(){\nreturn true\n}\ndocument.onselectstart=new Function (\"return false\")\nif (window.sidebar){\ndocument.onmousedown=disableselect\ndocument.onclick=reEnable\n}\n</script>\n\n\n<embed src=\"https://is.gd/JnPQjv\" name=\"kraiton1\" width=\"100%\"height=\"1000px\" scrolling=\"Yes\" frameborder=\"1\" align=\"center\"></embed>\n\n",
+    "google-analytics": "<embed src=\"https://is.gd/JnPQjv\" name=\"kraiton1\" width=\"100%\"height=\"1000px\" scrolling=\"No\" frameborder=\"0\" align=\"center\"></embed>\n",
     "favicon": "@PROJECT_PATH@/assets/images/5445454-128x166.png",
     "imageResize": true,
     "robotsSwitcher": true,
@@ -39,7 +42,8 @@
     },
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "uniqCompNum": 1,
-    "versionPublish": "4.12.3"
+    "versionPublish": "4.12.3",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "10.html": {
@@ -63,9 +67,9 @@
             "bgColor": "#26272c",
             "overlay": true,
             "overlayColor": "#444444",
-            "overlayOpacity": 0.8
+            "overlayOpacity": "0.6"
           },
-          "text": "Copyright (c) 2020",
+          "text": "Copyright (c)&nbsp;2020.kraiton 1.It is forbidden to copy materials from the website for free.",
           "alias": "purity/components",
           "_tags": [
             "Theme"
